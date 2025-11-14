@@ -17,10 +17,7 @@ public class Book {
                 return word.substring(i,word.length()) + word.substring(0,i) + "ay";
             }
         }
-
         return word;
-
-
     }
     public int endPunctuation(String word) {
         return -1;
